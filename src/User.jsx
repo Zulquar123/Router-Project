@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 
 export default function User() {
@@ -25,7 +24,7 @@ export default function User() {
         ⬅️ Back...
       </button>
       <hr />
-      <Outlet />
+      {/* <Outlet /> */}
     </div>
   );
 }

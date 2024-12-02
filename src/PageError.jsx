@@ -1,7 +1,6 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function () {
+export default function PageError() {
   const navigate = useNavigate();
   const handleBtn = () => {
     navigate("/");

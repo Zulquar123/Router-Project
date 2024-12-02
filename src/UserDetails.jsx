@@ -5,7 +5,7 @@ export default function UserDetails() {
   const { name } = useParams();
   const navigate = useNavigate();
   const handleBtn = () => {
-    navigate("/");
+    navigate("/user");
   };
   return (
     <div className=" mt-5 m-auto">

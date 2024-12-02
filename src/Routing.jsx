@@ -15,9 +15,8 @@ export default function Routing() {
       <Routes>
         <Route path="*" element={<PageError />} />
         <Route path="/" element={<Home />} />
-        <Route path="/user" loader={loader} element={<User />}>
-          <Route path="/user/:name" element={<UserDetails />} />
-        </Route>
+        <Route path="/user" loader={loader} element={<User />} />
+        <Route path="/user/:name" element={<UserDetails />} />
 
         <Route path="/about" element={<About />} />
       </Routes>

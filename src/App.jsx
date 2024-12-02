@@ -1,8 +1,7 @@
-import React from "react";
 import Navbar from "./Navbar";
 import Routing from "./Routing";
 
-export default function () {
+export default function App() {
   return (
     <div>
       <Navbar />
